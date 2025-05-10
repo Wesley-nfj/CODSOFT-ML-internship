@@ -1,20 +1,34 @@
-# MOVIE GENRE PREDICTOR ML project
+# 🎬 Movie Genre Predictor
 
-This project demonstrates a text classification workflow using Python and scikit-learn. It trains a logistic regression model to classify text data.
+## Project Description
 
-## Project Structure
+This project implements a **Movie Genre Prediction** model that uses Natural Language Processing (NLP) to classify movies into genres based on their descriptions. By converting text data into numerical form and training a classifier, the model can predict a movie's genre using supervised learning techniques.
 
-- model.py: The main Python script containing the code for data loading, training, prediction, and evaluation.
-- test_data_sample.txt: The  file containing a sample of your training data.
-- train_data_sample.txt: The  file containing a sample of your testing data.
+---
 
-## Requirements
+## 🔍 Key Features
 
-- Python 3.x
-- scikit-learn
-- pandas
+- **Text Preprocessing**: Uses `TfidfVectorizer` to transform movie descriptions into numerical feature vectors.
+- **Model Training**: A `LogisticRegression` classifier is trained on these features to learn the relationship between text and genres.
+- **Evaluation**: The model's performance is measured using accuracy on a held-out test set.
 
-You can install the necessary libraries using pip:
+---
 
-```bash
-pip install scikit-learn pandas
+## 🧰 Tools & Libraries Used
+
+- `pandas` for data loading and handling
+- `scikit-learn` for text vectorization, model training, and evaluation
+- `TfidfVectorizer` for converting movie descriptions into vectors
+- `LogisticRegression` for classification
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository.
+2. Ensure you have Python installed (preferably 3.8+).
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
