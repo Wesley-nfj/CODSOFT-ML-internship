@@ -62,3 +62,13 @@ Welcome to my Machine Learning Projects Repository! This portfolio includes thre
 
    ```bash
    pip install -r requirements.txt
+---
+
+## 📊 Summary
+
+These projects collectively demonstrate key aspects of machine learning workflows, including:
+
+- **Data Preprocessing**: Handling both text and numeric data, scaling, and vectorizing.
+- **Feature Engineering**: Converting categorical data into numerical format and combining multiple data types.
+- **Model Training & Evaluation**: Applying Logistic Regression to predict outcomes and measure performance.
+    Each project showcases practical applications of ML with real-world data, offering valuable experience in fraud detection, customer behavior analysis, and text classification — making them ideal for learners entering the field of data science and Machine Learning.
