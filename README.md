@@ -66,9 +66,9 @@ Welcome to my Machine Learning Projects Repository! This portfolio includes thre
 
 ## Summary
 These projects collectively demonstrate key aspects of machine learning workflows, including:
-  -'Data Preprocessing': Handling both text and numeric data, dealing with missing values, scaling, and vectorizing.
-  -'Feature Engineering': Converting categorical data into numerical format and combining multiple feature types.
-  -'Model Training & Evaluation': Using Logistic Regression to train models and assess performance.
+  -**Data Preprocessing**: Handling both text and numeric data, dealing with missing values, scaling, and vectorizing.
+  -**Feature Engineering**: Converting categorical data into numerical format and combining multiple feature types.
+  -**Model Training & Evaluation**: Using Logistic Regression to train models and assess performance.
 
 By building and evaluating these models, I gained hands-on experience in text classification, fraud detection,
 and customer behavior analysis, providing me with a strong foundation in machine learning. These projects are
