@@ -3,11 +3,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression 
 from sklearn.metrics import accuracy_score
 
-train_df= pd.read_csv("train_data_sample.txt",sep= ":::", engine='python', header= None)
+train_df= pd.read_csv("train_data.txt",sep= ":::", engine='python', header= None)
 train_df.columns = ['ID', 'TITLE', 'GENRE', 'DESCRIPTION']
-test_df= pd.read_csv("test_data_sample.txt", sep=":::", engine='python', header= None)
+test_df= pd.read_csv("test_data.txt", sep=":::", engine='python', header= None)
 test_df.columns = ['ID', 'TITLE', 'DESCRIPTION']
-solution_df= pd.read_csv("test_data_solution_sample.txt", sep=":::", engine='python', header= None)
+solution_df= pd.read_csv("test_data_solution.txt", sep=":::", engine='python', header= None)
 solution_df.columns = ['ID', 'TITLE', 'GENRE', 'DESCRIPTION']
 
 #Identifying feature data
