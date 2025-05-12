@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project implements a **Credit Card Fraud Detection Model** that uses machine learning techniques to identify fraudulent transactions from a dataset containing transaction details. It processes both text and numeric data, transforming categorical variables (like merchant names, city, etc.) and scaling numeric values (like transaction amount and coordinates). The model uses **Logistic Regression** to classify transactions as fraudulent or non-fraudulent.
+This project implements a **Credit Card Fraud Detection Model** that uses machine learning techniques and Natural Language Processing (NLP) to identify fraudulent transactions from a dataset containing transaction details. It processes both text and numeric data, transforming categorical variables (like merchant names, city, etc.) and scaling numeric values (like transaction amount and coordinates). The model uses **Logistic Regression** to classify transactions as fraudulent or non-fraudulent.
 
 ### Key Features:
 - **Text Features:** Transform categorical text data using `TfidfVectorizer` to create numerical representations for columns like merchant names, categories, job titles, and more.
