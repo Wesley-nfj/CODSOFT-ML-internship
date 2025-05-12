@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project implements a **Customer Churn Prediction Model** that uses machine learning to determine whether a customer is likely to leave a bank (churn). It processes both text and numeric data, transforming categorical variables (like gender and geography) and scaling numeric features (like credit score, balance, and salary). The model uses **Logistic Regression** to predict customer churn based on these inputs.
+This project implements a **Customer Churn Prediction Model** that uses machine learning and Natural Language Processing (NLP) to determine whether a customer is likely to leave a bank (churn). It processes both text and numeric data, transforming categorical variables (like gender and geography) and scaling numeric features (like credit score, balance, and salary). The model uses **Logistic Regression** to predict customer churn based on these inputs.
 
 ### Key Features:
 - **Text Features:** Transform categorical text data using `TfidfVectorizer` to numerically represent features like `Gender` and `Geography`.
