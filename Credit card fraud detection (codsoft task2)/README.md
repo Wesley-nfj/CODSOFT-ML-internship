@@ -35,6 +35,17 @@ To help understand the data, the project includes simple and clear visualization
     - `matplotlib`
 
 ---
+## Dataset
+
+**Note:** The dataset files (`fraudTrain.csv` and `fraudTest.csv`) are **not included** in this repository due to size and privacy reasons.
+
+You can download the datasets from Kaggle at the following link:
+
+[Credit Card Fraud Detection Dataset on Kaggle](https://www.kaggle.com/datasets)
+
+*(Replace the link above with the exact Kaggle dataset URL if available.)*
+
+After downloading, place the `fraudTrain.csv` and `fraudTest.csv` files in the root directory of this project before running the model.
 
 ## File Structure
 
