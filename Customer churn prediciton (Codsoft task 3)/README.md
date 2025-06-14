@@ -33,6 +33,13 @@ This project implements a **Customer Churn Prediction Model** that uses machine 
     - `scipy`
 
 ---
+**Note:** The dataset file (`Churn_Modelling.csv`) is not included in this repository due to size.
+
+You can download the dataset from Kaggle at the following link:
+
+[Customer Churn Modeling Dataset on Kaggle](https://www.kaggle.com/shubhendra7/customer-churn-prediction)
+
+After downloading, place the `Churn_Modelling.csv` file in the root directory of this project before running the model.
 
 ## File Structure
 
