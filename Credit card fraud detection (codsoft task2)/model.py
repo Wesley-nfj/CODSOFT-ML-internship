@@ -3,10 +3,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import StandardScaler
 from scipy.sparse import hstack, csr_matrix
 from sklearn.linear_model import LogisticRegression 
+import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
+ 
 
-train_df= pd.read_csv("fraudTrain.csv")
-test_df= pd.read_csv("fraudTest.csv")
+train_df = pd.read_csv("fraudTrain.csv")
+test_df = pd.read_csv("fraudTest.csv")
 
 
 #categorizing columns into text columns, numeric columns and identifying the target column
@@ -59,3 +61,13 @@ y_prediction= model.predict(x_test)
 
 accuracy=accuracy_score(y_true, y_prediction)
 print(f"accuracy: {accuracy}")
+
+#using matplotlib for data visualisation 
+class_counts= train_df["is_fraud"].value_counts()
+plt.bar(class_counts.index, class_counts.values, color=['#4CAF50', '#F44336'])
+plt.xlabel("Is Fraud")
+plt.ylabel("Number of Transactions")
+plt.title("Class Distribution")
+plt.tight_layout()
+plt.show()
+
