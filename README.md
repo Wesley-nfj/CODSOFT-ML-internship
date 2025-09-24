@@ -1,6 +1,6 @@
 # Machine Learning Projects Portfolio
 
-Welcome to my CODSOFT Machine Learning Projects Repository! This is a ML portfolio from my Machine Learning internship at CODSOFT. It includes three practical ML projects that demonstrate the use of supervised learning techniques on real-world datasets. Each project involves data preprocessing, model training, and evaluation using **Logistic Regression** and other essential tools.
+Welcome to my CODSOFT Machine Learning Projects Repository! This is an ML portfolio from my Machine Learning internship at CODSOFT. It includes three practical ML projects that demonstrate the use of supervised learning techniques on real-world datasets. Each project involves data preprocessing, model training, and evaluation using **Logistic Regression** and other essential tools.
 
 ---
 
